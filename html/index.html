@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+
+<body>
+    <h1>Hello {{user}}!</h1>
+
+    {% if is_logged_in %}
+    <p>Bem vindo de volta, {{user}}! Feliz em te ver de novo.</p>
+    {% else %}
+    <p>Por favor, logue para acessar sua conta</p>
+    {% endif %}
+
+    <h2>Seus items:</h2>
+    <ul>
+        {% for item in items %}
+        <li>{{item}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+</html>
