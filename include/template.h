@@ -2,7 +2,7 @@
 #define TEMPLATE_H
 
 #include <string.h>
-#include <sdlib.h>
+#include <stdlib.h>
 #include <stddef.h>
 #include <stdio.h>
 
